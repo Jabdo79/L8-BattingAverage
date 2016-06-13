@@ -12,7 +12,9 @@ public class BattingAverage {
 		//quick title
 		System.out.println("Welcome to Batting Average Calculator!");
 		
+		int[] batters = new int[InputCheck.getInt(sc, "\nHow many batters would you like to enter data for? ")];
 		
+		System.out.println(batters.length);
 		
 	}
 
